@@ -21482,7 +21482,7 @@
 
 	    _this.state = {
 	      head: window.headData,
-	      list: window.contentsData // []임. 
+	      list: window.contentsData // public/db/exampleData.js 
 	    };
 	    return _this;
 	  }
@@ -40395,7 +40395,6 @@
 	    _classCallCheck(this, List);
 
 	    return _possibleConstructorReturn(this, (List.__proto__ || Object.getPrototypeOf(List)).call(this, props));
-	    //   this.connectSearch = this.connectSearch.bind(this); 
 	  }
 
 	  _createClass(List, [{

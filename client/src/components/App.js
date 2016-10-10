@@ -10,7 +10,7 @@ class App extends React.Component {
       super(props);                //---> props를 React.Component에 전달한다.   
       this.state = {
         head:window.headData,
-        list:window.contentsData // []임. 
+        list:window.contentsData // public/db/exampleData.js 
       }; 
     }
     render(){ 

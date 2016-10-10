@@ -5,7 +5,6 @@ import { NavItem, Navbar } from 'react-bootstrap';
 class List extends React.Component {
     constructor(props) {
       super(props);
-    //   this.connectSearch = this.connectSearch.bind(this); 
     }
     render(){
         return (
